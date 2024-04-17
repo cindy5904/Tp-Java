@@ -10,12 +10,12 @@ public class Client {
 
     private List<CompteBancaire> listeComptes;
 
-    public Client(String nom, String prenom, String identifiant, String numeroTelephone, List<CompteBancaire> listeComptes ) {
+    public Client(String nom, String prenom, String identifiant, String numeroTelephone ) {
         this.nom = nom;
         this.prenom = prenom;
         this.identifiant = identifiant;
         this.numeroTelephone = numeroTelephone;
-        this.listeComptes = listeComptes;
+
     }
 
     public String getNom() {

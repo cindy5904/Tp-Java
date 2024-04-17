@@ -4,7 +4,6 @@ public class Operation {
     private int numero;
     private double montant;
     private StatutOperation statut;
-
     public enum StatutOperation {
         DEPOT,
         RETRAIT,
@@ -13,7 +12,6 @@ public class Operation {
         this.numero = numero;
         this.montant = montant;
         this.statut = statut;
-
     }
 
     public int getNumero() {
