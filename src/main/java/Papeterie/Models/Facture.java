@@ -12,7 +12,6 @@ public class Facture {
 
     private int quantite;
 
-
     private int nbreDeLigne;
     private static final int quantiteMax = 10;
 
